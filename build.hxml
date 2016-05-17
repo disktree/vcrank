@@ -1,0 +1,13 @@
+
+#-cp src
+#-neko prepare.n
+#-main net.disktree.kurbel.Prepare
+#-cmd neko prepare.n
+#--next
+
+-cp src
+-swf-version 10
+-swf bin/kurbel.swf
+-swf-header 800:600:30:000000
+-main net.disktree.kurbel.App
+--no-traces
